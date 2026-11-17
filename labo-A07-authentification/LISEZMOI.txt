@@ -1,0 +1,22 @@
+LABO « Ma bibliothèque » — TP A07:2025 — Défaillances d'authentification
+Éric BARBÉ — Formateur
+
+CONTENU
+  bibliotheque/  le site « Ma bibliothèque », volontairement vulnérable
+
+PRÉREQUIS
+  PHP 8 avec l'extension pdo_sqlite et mbstring (vérifier avec : php -m)
+
+DÉMARRAGE
+  php init_base.php
+  php -S localhost:8000
+  puis http://localhost:8000
+
+COMPTES DE TEST
+  alice / secret123 (membre) — bob / chocolat (membre) — admin / MotDePasseAdmin! (admin)
+
+REMISE À ZÉRO
+  « php init_base.php » (dans le dossier bibliotheque) reconstruit la base à tout moment.
+
+Suivez le document du TP étape par étape.
+Usage strictement pédagogique, sur votre poste uniquement : attaquer un site réel est un délit.
